@@ -457,46 +457,60 @@ ul {
 
 .text__3 {
     width: 370px;
-    height: 740px;
     margin-top: 33px;
 
     font-size: 24px;
     font-weight: 600;
 }
 
+.commercial>.commercial__block_1 {
+    float: left;
+    height: 740px;
+}
+
 .commercial1 {
-    position: absolute;
-    left: 0;
-    top: 0;
+    position: relative;
+    /*left: 0;
+    top: 0;*/
 }
 
 .commercial2 {
-    position: absolute;
-    left: 0;
-    bottom: 0;
+    position: relative;
+    /*left: 0;
+    bottom: 0;*/
 }
 
+
+
 .commercial .commercial3 {
-    position: absolute;
-    left: 50%;
+    position: relative;
+    float: left;
+    /*left: 50%;*/
 
     width: 370px;
     height: 740px;
-    -webkit-transform: translateX(-50%);
+    /*-webkit-transform: translateX(-50%);
     -ms-transform: translateX(-50%);
-    transform: translateX(-50%);
+    transform: translateX(-50%);*/
+}
+
+.commercial>.commercial__block_3 {
+    float: right;
+    height: 740px;
 }
 
 .commercial4 {
-    position: absolute;
-    right: 0;
-    top: 0;
+    position: relative;
+    float: right;
+    /*right: 0;
+    top: 0;*/
 }
 
 .commercial5 {
-    position: absolute;
-    right: 0;
-    bottom: 0;
+    position: relative;
+    float: right;
+    /*right: 0;
+    bottom: 0;*/
 }
 
 .commercial2__text {
@@ -514,7 +528,8 @@ ul {
     position: absolute;
     right: 0;
 
-    width: 111px;
+    /*width: 111px;*/
+    padding: 0 15.383px;
     height: 26px;
 
 
@@ -531,7 +546,8 @@ ul {
     right: 0;
     bottom: 0;
 
-    width: 170px;
+    /*width: 170px;*/
+    padding: 0 15.568px;
     height: 46px;
 
     background-color: rgb(223, 1, 1);
@@ -742,19 +758,24 @@ ul {
     }
 
     .commercial2 {
-        top: 370px;
+        /*top: 370px;*/
     }
 
     .commercial3 {
-        right: 0;
+        /*right: 0;*/
         -webkit-transform: translateX(0) !important;
         -ms-transform: translateX(0) !important;
         transform: translateX(0) !important;
     }
 
     .commercial4 {
-        left: 0;
-        top: 740px;
+        /*left: 0;
+        top: 740px;*/
+    }
+    
+    .commercial>.commercial__block_3 {
+        width: 740px;
+        height: 370px;
     }
 }
 
@@ -788,22 +809,27 @@ ul {
         width: 370px;
         margin: 0 auto;
     }
+    
+    .commercial>.commercial__block_3 {
+        width: 370px;
+        height: 740px;
+    }
 
     .commercial2 {
-        top: 370px;
+        /*top: 370px;*/
     }
 
     .commercial .commercial3 {
-        left: 0;
-        top: 740px;
+        /*left: 0;
+        top: 740px;*/
         -webkit-transform: translateX(0) !important;
         -ms-transform: translateX(0) !important;
         transform: translateX(0) !important;
     }
 
     .commercial4 {
-        left: 0;
-        top: 1480px;
+        /*left: 0;
+        top: 1480px;*/
     }
 }
 
